@@ -1,0 +1,33 @@
+body {
+ margin:1em;
+}
+
+iframe {
+ border: 1px solid black;
+ border-radius: 5px;
+ height: 500px;
+ width: 500px;
+ resize: both;
+ overflow: auto;
+
+}
+
+a {
+font-weight: bold;
+color:#3e6fad;
+}
+a:hover {
+color:#2b4d78;
+}
+a:active {
+color:#076ae8;
+}
+
+img {
+user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
